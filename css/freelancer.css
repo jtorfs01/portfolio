@@ -6,7 +6,13 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  color: #40517C;
 }
+
+.portfolio-link {
+  font-size: 20px;
+}
+
 p {
   font-size: 20px;
 }
@@ -18,7 +24,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #40517C;
   outline: none;
 }
 h1,
@@ -54,22 +60,26 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  /*background-color: #18BC9C;*/
   color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #40517C;
+
 }
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+  background-color:inherit !important;
+  color: #40517C;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #D8EDE7;
   color: white;
 }
 header .container {
@@ -104,7 +114,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #40517C;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -505,7 +515,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 .caption {
-  padding:25%;
+  padding:5%;
   text-align: center;
   vertical-align: baseline;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
